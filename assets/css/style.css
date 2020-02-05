@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans|Roboto+Slab|Teko&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin|Nunito|Roboto+Mono&display=swap');
+#content {
+    min-height:100vh;
+    background-image: url(../images/small-squares-on-blue-background.jpg);
+}
+* {
+    box-sizing: border-box;
+    
+}
+body{
+    /* background: url('../images/pink_rice.png'); */
+    font-size: 18px;
+    line-height: 34px;
+    font-family: 'Nunito';
+    /* color: #470a0a; */
+}
+h3,h5{
+    font-family: 'Cabin';
+    font-weight: bold;
+}
+header {
+    width: 100%;
+    background-color: white;
+    border-bottom: 4px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-bottom: 25px;
+}
+#myName {
+    height: 60px;
+    line-height: 60px;
+    background-color: #778899;
+   
+    /* background-color: #2F4F4F; */
+    text-align: center;
+
+
+    color: white;
+    font-family: 'PT Sans';
+    font-size: 32px;
+    font-weight: bold;
+
+}
+nav {
+    height: 60px;
+    margin-top:auto;
+
+}
+h6{
+    font-size:14px;
+}
+a{
+    text-decoration:none;
+    color: #777777;
+    /* padding:1px 2px; */
+}
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    line-height: 49px;
+    padding-bottom: 15px;
+    /* border-bottom: 3px solid #cccccc; */
+    color:#4aaaa5;
+}
+#main-container {
+    min-height: 100%;
+}
+.card-body{
+    padding: 20px;
+    margin-bottom: 6px;
+    
+    background: #ffffff;
+    opacity:0.9;
+   color: #2F4F4F;
+ 
+}
+
+.myImage{
+
+    
+   max-width: 100%;
+    /* border: none; */
+}
+/* Portfolio style features */
+ /* .img-caption{
+ 
+    bottom: 3px;
+    left: 0px;
+    right: 0px;
+    padding: 8px 0px;
+    background-color: #4aaaa5;
+    color:white;
+} */
+
+.card-img-overlay {
+		display: flex;
+		top: -60px;
+		justify-content: center;
+		align-items: flex-end;
+		align-content: flex-end;
+		padding: 1em;
+		z-index: 1000;
+		width: 361px
+	
+        }
+        .img-caption{
+            position: relative;
+            background-color: rgb(234, 234, 234);
+            height: 40px;
+            line-height: 40px;
+            margin-bottom: 0;
+            margin-top: 0;
+            text-align: center;
+            width: 100%;
+            opacity: 0.9;
+            } 
+        
+
+.card-img{
+    width:206px;
+    height:206px;
+}
+/* Contact style features */
+.btn{
+background-color: #4aaaa5;
+color: white;
+border: none;
+}
+.form-control{
+    height:35px;
+}
+/* Contact style features */
+.btn{
+background-color: #4aaaa5;
+color: white;
+border: none;
+}
+.form-control{
+    height:35px;
+}
+/* footer style features */
+
+footer, .Empty-div{
+    height:40px;
+}
+footer{
+    clear: both;
+    font-size: 12px;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: -30px;
+    border-top: 8px solid #708090;
+    background: #F8F8FF;
+    color:#470a0a;
+}
+.floating-img {
+	border: 1px solid #ccc;
+	/* allows the text to wrap around the image */
+	float: left;
+  }
+  .portfolio-overlay {
+    position: relative;
+    background-color:#5F9EA0;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+    opacity: 0.9;
+    color:white
+    }
+    
+  .card-img-overlay {
+    display: flex;
+    top: -60px;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    padding: 1em;
+    z-index: 1000;
+    width: 361px;
+    color:white;
+
+    }
