@@ -1,185 +1,199 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans|Roboto+Slab|Teko&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Cabin|Nunito|Roboto+Mono&display=swap');
-#content {
-    min-height:100vh;
-    background-image: url(../images/small-squares-on-blue-background.jpg);
+@import url('https://fonts.googleapis.com/css?family=Kanit|Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
+
+html{
+    -webkit-tap-highlight-color: transparent;
 }
 * {
     box-sizing: border-box;
-    
 }
-body{
-    /* background: url('../images/pink_rice.png'); */
+body {
+    background-attachment: fixed;
+    background-image: url("../images/computer-programming.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     font-size: 18px;
     line-height: 34px;
     font-family: 'Nunito';
-    /* color: #470a0a; */
+    min-height:100vh;
+    position:relative;
+
 }
-h3,h5{
-    font-family: 'Cabin';
-    font-weight: bold;
-}
-header {
+body:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
     width: 100%;
-    background-color: white;
-    border-bottom: 4px solid #cccccc;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-bottom: 25px;
+    height: 100%;
+    position: fixed;
+    background-image: -moz-linear-gradient(0deg,  #e66587 0%, #f09458 100%);
+    background-image: -webkit-linear-gradient(0deg,  #e66587 0%, #f09458 100%);
+    background-image: -ms-linear-gradient(0deg,  #e66587 0%, #f09458 100%);
+    opacity: 0.6;
+    z-index: -1;
 }
-#myName {
-    height: 60px;
-    line-height: 60px;
-    background-color: #778899;
-   
-    /* background-color: #2F4F4F; */
-    text-align: center;
 
+.header-wrap {
+    position: relative;
+}
 
+.header-top {
+    padding: 30px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu-bar {
+    cursor: pointer;
+}
+
+.main-menubar {
+    position: relative;
+}
+nav a {
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 25px;
+}
+ a:hover {
     color: white;
-    font-family: 'PT Sans';
-    font-size: 32px;
-    font-weight: bold;
+}
 
-}
-nav {
-    height: 60px;
-    margin-top:auto;
 
+/* ---------Index.html page styling--------------------- */
+
+.banner-area{
+    background-image: -moz-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    background-image: -ms-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    height: 450px;
+    display:block;
+    width: 68.75%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    opacity: 0.9;
 }
-h6{
-    font-size:14px;
-}
-a{
-    text-decoration:none;
-    color: #777777;
-    /* padding:1px 2px; */
+
+.banner-area .height {
+    height: 500px;
 }
 h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-weight:bold;
+    font-size: 35px;
     line-height: 49px;
     padding-bottom: 15px;
-    /* border-bottom: 3px solid #cccccc; */
-    color:#4aaaa5;
+    color:whitesmoke;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
-#main-container {
-    min-height: 100%;
+
+/* --------About-Me page styling------------------ */
+
+.card-body{
+    padding: 20px;
+    margin-bottom: 6px;
+    color: white;
+    opacity :0.9;
+ }
+
+.content-area{
+    display:block; 
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.floating-img {
+    border: 1px solid #ccc;
+}
+
+.main-wrapper {
+    width: 68.75%;
+    margin: 0 auto;
 }
 .card-body{
     padding: 20px;
     margin-bottom: 6px;
-    
     background: #ffffff;
     opacity:0.9;
-   color: #2F4F4F;
- 
-}
-
-.myImage{
-
-    
-   max-width: 100%;
-    /* border: none; */
-}
-/* Portfolio style features */
- /* .img-caption{
- 
-    bottom: 3px;
-    left: 0px;
-    right: 0px;
-    padding: 8px 0px;
-    background-color: #4aaaa5;
-    color:white;
-} */
-
-.card-img-overlay {
-		display: flex;
-		top: -60px;
-		justify-content: center;
-		align-items: flex-end;
-		align-content: flex-end;
-		padding: 1em;
-		z-index: 1000;
-		width: 361px
-	
-        }
-        .img-caption{
-            position: relative;
-            background-color: rgb(234, 234, 234);
-            height: 40px;
-            line-height: 40px;
-            margin-bottom: 0;
-            margin-top: 0;
-            text-align: center;
-            width: 100%;
-            opacity: 0.9;
-            } 
-        
-
-.card-img{
-    width:206px;
-    height:206px;
-}
-/* Contact style features */
-.btn{
-background-color: #4aaaa5;
-color: white;
-border: none;
-}
-.form-control{
-    height:35px;
-}
-/* Contact style features */
-.btn{
-background-color: #4aaaa5;
-color: white;
-border: none;
-}
-.form-control{
-    height:35px;
-}
-/* footer style features */
-
-footer, .Empty-div{
-    height:40px;
-}
-footer{
-    clear: both;
-    font-size: 12px;
-    text-align: center;
-    padding: 30px 0;
-    margin-top: -30px;
-    border-top: 8px solid #708090;
-    background: #F8F8FF;
-    color:#470a0a;
+    color: #2F4F4F;
 }
 .floating-img {
-	border: 1px solid #ccc;
-	/* allows the text to wrap around the image */
-	float: left;
-  }
-  .portfolio-overlay {
-    position: relative;
-    background-color:#5F9EA0;
-    height: 40px;
-    line-height: 40px;
-    margin-bottom: 0;
-    margin-top: 0;
-    text-align: center;
-    width: 100%;
-    opacity: 0.9;
-    color:white
-    }
-    
-  .card-img-overlay {
-    display: flex;
-    top: -60px;
-    justify-content: center;
-    align-items: flex-end;
-    align-content: flex-end;
-    padding: 1em;
-    z-index: 1000;
-    width: 361px;
-    color:white;
+    border: 1px solid #ccc;
+    float: left;
+}
 
-    }
+/* --------------portfolio------------------- */
+
+.portfolio-area{
+    margin-top:100px;
+}
+
+#portfolio-heading {
+    font-family: 'Overpass', sans-serif;
+    font-weight:bold;
+    font-size: 35px;
+    line-height: 49px;
+    padding-bottom: 15px;
+    color:whitesmoke;
+
+    margin-bottom: 20px;
+}
+
+.portfolio-card {
+    margin-top: 40px;
+}
+
+.portfolio-card .thumb {
+    height: 13rem;
+    width: 100%;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    position: relative;
+    border-radius: 10px;
+}
+
+.portfolio-card .card-text {
+    margin-top: 15px;
+}
+
+.portfolio-card .card-text h6 {
+    margin-bottom: 10px;
+}
+
+.portfolio-area{
+    background-image: -moz-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    background-image: -ms-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    height: 800px;;
+    display:block;
+    width: 68.75%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    display:block; 
+    margin: 0 auto;
+    margin-top: 6rem;
+    opacity:0.9;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+
+/* ---------footer styling--------- */
+
+.footer-text{
+color:black;
+font-size :16px;
+}
+.footer-content{
+    background-color:#FFC0CB;
+    opacity : 0.5;
+}
