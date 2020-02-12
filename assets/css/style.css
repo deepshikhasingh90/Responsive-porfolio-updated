@@ -132,8 +132,24 @@ h1 {
 /* --------------portfolio------------------- */
 
 .portfolio-area{
-    margin-top:100px;
+    background-image: -moz-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    background-image: -ms-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+    height: 800px;
+    display:block;
+    width: 68.75%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    display:block; 
+    margin: 0 auto;
+    margin-top: 6rem;
+    opacity:0.9;
 }
+@media only screen and (max-width: 575px) {
+    .portfolio-area {
+        height: 1500px;
+    }
+  }
 
 #portfolio-heading {
     font-family: 'Overpass', sans-serif;
@@ -168,20 +184,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-.portfolio-area{
-    background-image: -moz-linear-gradient(0deg, #e66587 0%, #f09458 100%);
-    background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
-    background-image: -ms-linear-gradient(0deg, #e66587 0%, #f09458 100%);
-    height: 800px;;
-    display:block;
-    width: 68.75%;
-    margin: 0 auto;
-    margin-top: 6rem;
-    display:block; 
-    margin: 0 auto;
-    margin-top: 6rem;
-    opacity:0.9;
-}
 a{
     text-decoration:none;
     color:white;
