@@ -135,20 +135,21 @@ h1 {
     background-image: -moz-linear-gradient(0deg, #e66587 0%, #f09458 100%);
     background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
     background-image: -ms-linear-gradient(0deg, #e66587 0%, #f09458 100%);
-    height: 800px;
-    display:block;
+    height: 1200px;
     width: 68.75%;
     margin: 0 auto;
     margin-top: 6rem;
     display:block; 
-    margin: 0 auto;
-    margin-top: 6rem;
-    opacity:0.9;
+    opacity:0.8;
 }
+
 @media only screen and (max-width: 575px) {
     .portfolio-area {
-        height: 1500px;
+        height: 2100px;
     }
+  }
+  .empty{
+      height:80px;
   }
 
 #portfolio-heading {
